@@ -1,0 +1,45 @@
+1. Побитовые операции: 
+	1.2.HomeWork1_2
+	1.3.HomeWork1_3
+	1.4.HomeWork1_4
+
+2. Изучить приоритетность операторов 
+	2.1.HomeWork2_1
+	2.2.HomeWork2_2
+	2.3.HomeWork2_3
+	2.4.HomeWork2_4
+	2.5.HomeWork2_5
+	2.6.HomeWork2_6
+	2.7.HomeWork2_7
+	2.8.HomeWork2_8
+	2.9.HomeWork2_9
+
+3. Изучить библиотеку (класс) Math из jdk.
+	HomeWork3_1
+	HomeWork3_2
+	HomeWork3_3
+	HomeWork3_4
+	HomeWork3_5	
+	HomeWork3_6
+	
+4. Разбираемся с операторами ветвления.
+	4.1. HomeWork4_1
+	4.2. HomeWork4_2
+	4.3. HomeWork4_3
+	4.4. HomeWork4_4
+	4.5. HomeWork4_5
+	4.6. HomeWork4_6
+
+5.* Создать СТАТИЧЕСКИЙ метод sleepIn
+	HomeWork5
+
+6. Запросить у пользователя через консоль его имя.
+	6.1. HomeWork6_1
+	6.2. HomeWork6_2
+	6.3. HomeWork6_3
+
+7.* Создать СТАТИЧЕСКИЙ метод createPhoneNumber
+	HomeWork7
+
+8.** Создать СТАТИЧЕСКИЙ метод String toBinaryString(byte number)
+	HomeWork8
