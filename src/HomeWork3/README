@@ -1,0 +1,22 @@
+HomeWork3
+
+Task 1 - 	Package runners 
+			class WithoutCalculatorMain
+
+Task 2 - 	Package runners
+			class CalculatorWithOperatorMain
+		
+		Package calcs.simple
+			class CalculatorWithOperator
+
+Task 3 		Package runners
+			class CalculatorWithMathCopyMain
+		
+		Package calcs.simple
+			class CalculatorWithMathCopy
+
+Task 4 		Package runners	
+			class CalculatorWithMathExtendsMain
+		
+		Package calcs.simple
+			class CalculatorWithMathExtends
