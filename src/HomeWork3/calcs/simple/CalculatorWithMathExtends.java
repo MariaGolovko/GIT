@@ -1,7 +1,10 @@
 package HomeWork3.calcs.simple;
 
-public class CalculatorWithMathExtends extends CalculatorWithOperator{
-    public double power (double a, int b){
+import HomeWork3.calcs.api.ICalculator;
+
+public class CalculatorWithMathExtends extends CalculatorWithOperator
+                                        implements ICalculator {
+    public double power (double a, double b){
         return Math.pow(a, b);
     }
     public double absolute (double a){

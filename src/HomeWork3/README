@@ -20,3 +20,41 @@ Task 4 		Package runners
 		
 		Package calcs.simple
 			class CalculatorWithMathExtends
+Task 5 		
+		Package calcs.additional
+			class CalculatorWithCounterClassic
+		Package runners 
+			Class CalculatorWithCounterClassicMain
+Task 6 
+		Package calcs.additional 
+			Class CalculatorWithCounterAutoSuper
+		Package runners
+			Class CalculatorWithCounterAutoSuperMain
+Task 7
+		Package calcs.additional 
+			class CalculatorWithCounterAutoComposite
+		Package runners
+			class CalculatorWithCounterDelegateCompositeMain
+Task 8 
+		Package calcs.additional
+			Class CalculatorWithCounterAutoAgregation
+		Package runners
+			Class CalculatorWithCounterDelegateAgregationMain
+Task 9
+		Package calcs.additional
+			class CalculatorWithCounterAutoChoiceAgregation
+		Package runners
+			class CalculatorWithCounterDelegateChoiceAgregationMain
+Task 10
+		Package calcs.api
+			интерфейс ICalculator
+		Package calcs.simple
+			class CalculatorWithOperator
+			class CalculatorWithMathCopy
+			class CalculatorWithMathExtends
+Task 11
+		Package calcs.api
+			Class CalculatorWithCounterAutoAgregationInterface
+		Package runners
+			Class CalculatorWithCounterAutoCompositeInterfaceMain
+			

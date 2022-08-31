@@ -9,7 +9,7 @@ public class CalculatorWithMathCopyMain {
 
         CalculatorWithMathCopy calculator = new CalculatorWithMathCopy();
 
-        double result = calculator.plusMath(calculator.plusMath(4.1, calculator.multiplicationMath(15, 7)), calculator.powerMath(calculator.divideMath(28,5),2));
+        double result = calculator.plus(calculator.plus(4.1, calculator.multiplication(15, 7)), calculator.power(calculator.division(28,5),2));
 
         System.out.println(result);
 

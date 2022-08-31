@@ -1,6 +1,8 @@
 package HomeWork3.calcs.simple;
 
-public class CalculatorWithOperator {
+import HomeWork3.calcs.api.ICalculator;
+
+public class CalculatorWithOperator implements ICalculator {
 
     public double division (double a, double b){
         return a / b;
@@ -16,7 +18,7 @@ public class CalculatorWithOperator {
     public double plus (double a, double b) {
         return a + b;
     }
-    public double power (double a, int b){
+    public double power (double a, double b){
         double c = 1;
         if (b > 0) {
             for (int i = 1; i <= b; i++) {

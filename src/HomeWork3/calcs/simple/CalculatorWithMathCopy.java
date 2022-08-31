@@ -1,25 +1,27 @@
 package HomeWork3.calcs.simple;
 
-public class CalculatorWithMathCopy {
-    public double divideMath (int a , double b){
+import HomeWork3.calcs.api.ICalculator;
+
+public class CalculatorWithMathCopy implements ICalculator {
+    public double division (double a , double b){
         return a / b;
     }
-    public double multiplicationMath (int a, int b){
-        return Math.multiplyExact(a, b);
+    public double multiplication (double a, double b){
+        return a*b;
     }
-    public double minusMath (int a, int b){
-        return Math.subtractExact(a, b);
+    public double minus (double a, double b){
+        return a-b;
     }
-    public double plusMath (double a, double b){
+    public double plus (double a, double b){
         return a+b;
     }
-    public double powerMath (double a, double b){
+    public double power (double a, double b){
         return Math.pow(a, b);
     }
-    public double absoluteMath (double a){
+    public double absolute (double a){
         return Math.abs(a);
     }
-    public double squareMath (double a){
+    public double square (double a){
         return Math.sqrt(a);
     }
 
