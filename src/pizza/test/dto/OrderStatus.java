@@ -29,7 +29,7 @@ public class OrderStatus implements IOrderStatus {
         boolean result = false;
         String done = "Done";
         for (IStage stage: history) {
-            if (Objects.equals(getHistory(), done)) {
+            if (Objects.equals(getHistory(), done)) {//в сравнение мы передаем все коллекция, а необходимо сравнить строки(getDescription)
                 result = true;
             }
         }
